@@ -2,6 +2,7 @@
 
 ## Hemuppgift 1
 This lab is based on two data tables:
+
     hu1_lifeexp.RData – table with the average life expectancy per country.
     hu1_continents.RData – table of which continent each country belongs to.
 
