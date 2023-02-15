@@ -45,7 +45,7 @@ The file contains data per country for the following variables:
     c. gdp and gini
 
 4. Does the same as in **3**, but adds a straight line, calculated using the least squares method for the charts.
-5. Takes the three combinations in **3** and calculate linear regression models for them, along the lines of **y = a + b · x** , where *x* and *y* are variables on which we have data for and *a* and * b* are parameters to be calculated. 
+5. Takes the three combinations in **3** and calculate linear regression models for them, along the lines of \ **y = a + b · x** \ , where *x* and *y* are variables on which we have data for and *a* and * b* are parameters to be calculated. 
 6. Computes a collection of regressions. *life_expectancy* is the dependent variable (*y*) in all regressions.\
     6a. Computes a model for every other variable in the table that contains numbers.
 
