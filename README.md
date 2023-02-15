@@ -36,7 +36,8 @@ The file contains data per country for the following variables:
 \
 \
 **Sources**: *Ourworlindata.org*, *Världsbanken*, *Fraser Institute*, *GapMinder*.
-
+\
+\
 **Solves the following**:
 1. Retrieves the median and mean for all variables that contain numbers.
 2. Creates a histogram for each of the variables that contain numbers, a total of 8.
