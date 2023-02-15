@@ -78,7 +78,7 @@ The file contains data per country for the following variables:
 
 3.	Does a TF-IDF analysis to see which words were most important for each year. Visualizes the result in a chart.
 
-4.	A number of stop words ("ska" and "skall") have great weight in the TF-IDF analysis. These are removed and then **3** is redone.
+4.	A number of stop words (such as "ska" and "skall") have great weight in the TF-IDF analysis. These are removed and then **3** is redone.
 
 5.	Imports a sentiment dictionary and assigns a sentiment score to each word accordingly. Gives all NA observations the value 0. Then creates a graph of how the use of positive and negative words differs between the years 1980-2015.
 
