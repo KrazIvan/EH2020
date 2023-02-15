@@ -58,10 +58,25 @@ The file contains data per country for the following variables:
 - David Ricardo, On the Principles of Political Economy, and Taxation
 - Karl Marx, A Contribution to The Critique of the Political Economy\
 
-2. Tokenize the text. Each analysis unit must be one word and only have lowercase letters.
+2. Tokenizes the text. Each analysis unit must be one word and only have lowercase letters.
 3. Imports a list of stopwords.
 4. Clears all data from stop words.
 5. Produces a list of the 20 most common words in each book.
 6. Illustrates the result from **5** using diagrams.
 \
+## Hemuppgift 4
+
+1.	Imports the data table "*regfor_all.rds*" into R.
+\
+*The file contains Sweden's government declarations for every five years between 1980 and 2015. To facilitate the analysis, all numbers from the material have been removed in advance.* 
+\
+2.	Calculates how long (number of words) each government statement is. Visualizes the result in a chart.
+
+3.	Does a TF-IDF analysis to see which words were most important for each year. Visualizes the result in a chart.
+
+4.	A number of stop words ("ska" and "skall") have great weight in the TF-IDF analysis. These are removed and then **3** is redone.
+
+5.	Imports a sentiment dictionary and assigns a sentiment score to each word accordingly. Gives all NA observations the value 0. Then creates a graph of how the use of positive and negative words differs between the years 1980-2015.
+
+6.	Which party was the most negative or positive in terms of word choice, if we don't take the year into account? Takes into account that some parties used fewer words in general. This means that the sentiment score must be divided by the number of words per party. Three parties are observed: The Center Party (Fälldin), the Social Democrats (Palme, Carlsson, Persson and Löfven) and the Moderates (Reinfeldt).
 
