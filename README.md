@@ -45,8 +45,23 @@ The file contains data per country for the following variables:
     c. gdp and gini
 
 4. Does the same as in **3**, but adds a straight line, calculated using the least squares method for the charts.
-5. Takes the three combinations in **3** and calculate linear regression models for them, along the lines of **y = a + b \* x** , where *x* and *y* are variables on which we have data for and *a* and * b* are parameters to be calculated. 
+5. Takes the three combinations in **3** and calculate linear regression models for them, along the lines of **y = a + b · x** , where *x* and *y* are variables on which we have data for and *a* and * b* are parameters to be calculated. 
 6. Computes a collection of regressions. *life_expectancy* is the dependent variable (*y*) in all regressions.\
     6a. Computes a model for every other variable in the table that contains numbers.
 
     6b. Presents the results from 6a in a large table.
+\
+## Hemuppgift 3
+1. Imports the following four books into R:
+- Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations 
+- Thomas Robert Malthus, An Essay on the Principles of Population
+- David Ricardo, On the Principles of Political Economy, and Taxation
+- Karl Marx, A Contribution to The Critique of the Political Economy\
+
+2. Tokenize the text. Each analysis unit must be one word and only have lowercase letters.
+3. Imports a list of stopwords.
+4. Clears all data from stop words.
+5. Produces a list of the 20 most common words in each book.
+6. Illustrates the result from **5** using diagrams.
+\
+
