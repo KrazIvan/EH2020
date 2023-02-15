@@ -56,20 +56,21 @@ The file contains data per country for the following variables:
 - Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations 
 - Thomas Robert Malthus, An Essay on the Principles of Population
 - David Ricardo, On the Principles of Political Economy, and Taxation
-- Karl Marx, A Contribution to The Critique of the Political Economy\
+- Karl Marx, A Contribution to The Critique of the Political Economy
 
 2. Tokenizes the text. Each analysis unit must be one word and only have lowercase letters.
 3. Imports a list of stopwords.
 4. Clears all data from stop words.
 5. Produces a list of the 20 most common words in each book.
 6. Illustrates the result from **5** using diagrams.
-\
+
 ## Hemuppgift 4
 
 1.	Imports the data table "*regfor_all.rds*" into R.
 \
-*The file contains Sweden's government declarations for every five years between 1980 and 2015. To facilitate the analysis, all numbers from the material have been removed in advance.* 
 \
+*The file contains Sweden's government declarations for every five years between 1980 and 2015. To facilitate the analysis, all numbers from the material have been removed in advance.* 
+
 2.	Calculates how long (number of words) each government statement is. Visualizes the result in a chart.
 
 3.	Does a TF-IDF analysis to see which words were most important for each year. Visualizes the result in a chart.
