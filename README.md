@@ -20,3 +20,33 @@ The tables used contain information on 109 countries spread over the world. All 
     country: land.
     continent: världsdel.
     life_expectancy: förväntad medellivslängd
+
+## Hemuppgift 2
+The file contains data per country for the following variables:
+1. *country* = The country.
+2. *contintent* = The continent to which this country belongs.
+3. *child_mort* = Child mortality, per thousand of children < 5 years old.
+4. *econ_freedom* = An index of economic freedom.
+5. *gdp* = Gross domestic product.
+6. *gini* = The gini coefficient of individuals' income, what percentage of this country's income which would have to be redistributed in order for all individuals to have the same income.
+7. *hdi* = Human Development Index, from the UN.
+8. *health_exp* = Share of this country's healthcare spending that is financed through taxes.
+9. *life_expectancy* = Average life expectancy.
+10. *women_econ_op* = Index of women's economic opportunities.\
+**Sources**: *Ourworlindata.org*, *Världsbanken*, *Fraser Institute*, *GapMinder*.
+
+**Solves the following**:
+1. Retrieves the median and mean for all variables that contain numbers.
+2. Creates a histogram for each of the variables that contain numbers, a total of 8.
+3. Creates scatter plots for the following variables:
+
+    a. life_expectancy and gdp
+    b. life_expectancy and gini
+    c. gdp and gini
+
+4. Does the same as in **3**, but adds a straight line, calculated using the least squares method for the charts.
+5. Takes the three combinations in **3** and calculate linear regression models for them, along the lines of **y = a + b · x** , where *x* and *y* are variables on which we have data for and *a* and * b* are parameters to be calculated. 
+6. Computes a collection of regressions. *life_expectancy* is the dependent variable (*y*) in all regressions.
+    6a. Computes a model for every other variable in the table that contains numbers.
+
+    6b. Presents the results from 6a in a large table.
