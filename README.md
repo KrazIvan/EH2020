@@ -50,7 +50,7 @@ The file contains data per country for the following variables:
     6a. Computes a model for every other variable in the table that contains numbers.
 
     6b. Presents the results from 6a in a large table.
-\
+
 ## Hemuppgift 3
 1. Imports the following four books into R:
 - Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations 
