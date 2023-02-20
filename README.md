@@ -15,7 +15,7 @@ Solves the following tasks/answers the following questions:
 6. Make a chart to illustrate the difference in life expectancy between the continents.
 
 **Facts about the variables**\
-The tables used contain information on 109 countries spread over the world. All data is taken from Our World in Data and is available on their website https://ourworldindata.org/. Data are collected for the latest available year (The code was written in 2020).
+The tables used contain information on 109 countries spread over the world. All data is taken from Our World in Data and is available on their website https://ourworldindata.org/. Data is collected for the latest available year (The code was written in 2020).
 
     country: land.
     continent: världsdel.
@@ -35,7 +35,7 @@ The file contains data per country for the following variables:
 10. *women_econ_op* = Index of women's economic opportunities.
 \
 \
-**Sources**: *Ourworlindata.org*, *Världsbanken*, *Fraser Institute*, *GapMinder*.
+**Sources**: *Ourworldindata.org*, *Världsbanken*, *Fraser Institute*, *GapMinder*.
 
 
 **Solves the following**:
